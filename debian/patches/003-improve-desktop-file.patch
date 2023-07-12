@@ -1,0 +1,21 @@
+Description: Improve entries in desktop file, and add keywords
+Author: Thiago Pezzo <pezzo@protonmail.com>
+Last-Update: 2022-01-28
+Index: gprename-20210415/bin/gprename.desktop
+===================================================================
+--- gprename-20210415.orig/bin/gprename.desktop
++++ gprename-20210415/bin/gprename.desktop
+@@ -1,9 +1,10 @@
+ [Desktop Entry]
+-Version=1.0
++Version=1.5
++Type=Application
+ Name=GPRename
+-Comment=To rename files and directories in batch
++Comment=Rename files and directories in batch
+ Exec=gprename
+ Icon=gprename
+ Terminal=false
+-Type=Application
++Keywords=renamer;utility;
+ Categories=Utility;

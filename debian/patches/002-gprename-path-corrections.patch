@@ -1,0 +1,17 @@
+Description: Fix icon location for gprename, upstream is working with fixed paths
+Author: Marvin Stark <marv@der-marv.de>
+Reviewed-by: Thiago Pezzo <pezzo@protonmail.com>
+Forwarded: No
+Index: gprename-20210415/bin/gprename
+===================================================================
+--- gprename-20210415.orig/bin/gprename
++++ gprename-20210415/bin/gprename
+@@ -55,7 +55,7 @@ use Locale::gettext;          # for l18n
+ 
+ # set the locale
+ setlocale(LC_ALL, '');
+-bindtextdomain( 'gprename', '/usr/local/share/locale');
++bindtextdomain( 'gprename', '/usr/share/locale');
+ textdomain( 'gprename' );
+ 
+ sub gtext {

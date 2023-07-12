@@ -1,0 +1,16 @@
+Description: Fix typo in upstream's manpage.
+Author: Thiago Pezzo <pezzo@protonmail.com>
+Last-Update: 2022-01-29
+Index: gprename-20210415/man/gprename.1
+===================================================================
+--- gprename-20210415.orig/man/gprename.1
++++ gprename-20210415/man/gprename.1
+@@ -9,7 +9,7 @@ This manual page documents briefly the
+ .B gprename
+ command.
+ .PP
+-\fBgprename\fP is a complete batch renamer for files and directories, coded for Linux in GTK2-Perl. GPRename is licensed under the terms of the GNU General Public Licence. GPRename features many options to rename in batch, such as replace, remove, insert or delete text, add numbers consecutively and is available in many languages.
++\fBgprename\fP is a complete batch renamer for files and directories, coded for Linux in GTK2-Perl. GPRename is licensed under the terms of the GNU General Public License. GPRename features many options to rename in batch, such as replace, remove, insert or delete text, add numbers consecutively and is available in many languages.
+ .br
+ .SH FILES
+ ~/.gprename			User configuration text file
